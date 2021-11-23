@@ -1,3 +1,13 @@
+@import "variables";
+
 .perfil {
   display: flex;
+  flex-direction: column;
+  background-color: $colorBaln;
+  padding: 10px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
